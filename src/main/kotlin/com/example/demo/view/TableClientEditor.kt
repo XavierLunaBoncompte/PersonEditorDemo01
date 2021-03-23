@@ -11,7 +11,7 @@ import javafx.scene.layout.BorderPane
 import tornadofx.*
 import tornadofx.controlsfx.infoNotification
 
-class TableClientEditor : View("Client Editor") {
+class TableClientEditor : View("CLIENT EDITOR") {
     override val root: BorderPane = BorderPane()
     private val clients: ObservableList<Client>
     private var model: TableViewEditModel<Client> by singleAssign()
